@@ -1,58 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>CSS</title>
+        <title>Hangout Permalinks Layout</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="css/base.css" /> 
     </head>
     <body>
-        <h1>Tag reference</h1>
-        
-        <ul>
-            <li>alpha</li>
-            <li>beta</li>
-            <li>gamma</li>
-        </ul>
-        
-        <ol>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ol>
-        
-        <dl>
-            <dt>Term</dt>
-            <dd>Definition</dd>
-        </dl>
-        
-        <table>
-            <tr>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-                <td>D</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-            </tr>
-        </table>
-        
-        <img src="img/bill.jpg" alt="Bill Murray" title="Bill Murray jazz hands." />
-        
-        <h2>Secondary heading</h2>
-        <p>Type more and then save.</p>
+        <header>
+            <h1>
+                <a href="index.html">Hangout Permalinks</a>
+            </h1>
+            <nav>
+                <a href="about.html">About</a>
+            </nav>
+        </header>
+        <article>
+            <h1>Hangout Permalinks</h1>
+            <h2>Make hangouts into easily-reusable online meeting rooms.</h2>
+            <p>Google Hangouts are great, but it can be tricky to figure out how to create a hangout and send a link around to people. There are some work arounds (this trick with Google Calendar is particularly useful) but at the end of the day, Hangout just doesn't behave like a first class citizen of the web because its URLs are unreliable. Having a single URL makes it easy to make a habit of meeting in the same "place." Think of it like a conference call extension or even like a physical meeting room.</p>
 
-        <h2>External Links</h2>
-        <p>I want <a Href="http://google.com" target="_blank" title="Google">these words</a> to be clickable and send me to Google. Tags have <em>element</em> and zero or multiple <em>attribute</em> and <em>value</em> pairs. </p>
-        <p>It is common to use <code>target="_blank"</code> for external links. WIth external links, you need to use <strong>absolute URLs</strong>. Absolute URLs include the full path to an object typically by utilizing <code>http://</code></p> 
-
-        <h2>Internal Links</h2>
-        <p>Go learn more <a href="about.html">about</a> me. Internal Links use <strong>relative URLs</strong>. Relative URLs just specify the name of the HTML document and any extra path information.</p>
-
-        <h2>Mailto Links</h2>
-        <p>We can make a link that will <a href="mailto:name@domain.com">send someone an email</a>. </p>
+            <p>This service creates a permalink for a Hangout - a single URL with a Join Hangout button that take anyone who clicks it to the same hangout. As an added bonus, you can see whether other people are already in the hangout before you join it.</p>
+        </article>
+        <footer>
+            <p>This service is part of the Unhangout Project from the MIT Media Lab and MacArthur Foundation. Source available at Github.</p>
+        </footer>
     </body>
 </html>
