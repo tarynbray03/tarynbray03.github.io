@@ -85,6 +85,9 @@ img.center {
     margin-bottom: 15px;
 }
 
+img {
+    width: 100%;
+}
 
 footer {
     clear: both;
