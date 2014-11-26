@@ -85,7 +85,14 @@ img.center {
     margin-bottom: 15px;
 }
 
-img {
+#self {
+    width: 100%;
+}
+#about footer {
+    clear: both;
+}
+
+#resume {
     width: 100%;
 }
 
@@ -95,6 +102,18 @@ footer {
     font-size: 14px; 
     line-height: 30
 }
+
+#booth {
+    float: left;
+}
+
+#kttm {
+    float: right;
+}
+
+/***I cant make picture widths 100% without them becoming giant again and disregarding the size I set it too
+
+
 
 /* only applies to paragraphs on the index page because we used id="index" over yonder in index.html */
 /*
