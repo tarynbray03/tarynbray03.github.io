@@ -96,3 +96,10 @@ footer {
     line-height: 30
 }
 
+/* only applies to paragraphs on the index page because we used id="index" over yonder in index.html */
+/*
+#index p {
+    color: red;
+    font-size: 24px;
+}
+*/
