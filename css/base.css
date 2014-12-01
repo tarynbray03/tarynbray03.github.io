@@ -66,7 +66,8 @@ article h1 {
     margin-bottom: 30px;
 }
 
-article h2 {
+#index article h2 {
+    align-content: center;
     font-size: 24px;
     line-height: 24px;
     margin: 4px;
@@ -78,6 +79,12 @@ article p {
     padding: 5px; 
 }
 
+.twitter-timeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img.center {
     display: block;
     margin-left: auto;
@@ -85,15 +92,48 @@ img.center {
     margin-bottom: 15px;
 }
 
-#self {
-    width: 100%;
+#index h3 {
+    align-content: center:
 }
+
+#self2 {
+    width: 50%;
+}
+
+#booth {
+    width: 50%:
+}
+
+.floatleft {
+    float: left;
+}
+
 #about footer {
     clear: both;
 }
 
 #resume {
     width: 100%;
+}
+
+#keys {
+    margin-top: 15px;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
 }
 
 footer {
@@ -103,22 +143,25 @@ footer {
     line-height: 30
 }
 
-#booth {
-    float: left;
-}
+@media screen and (max-width: 600px) {
 
-#kttm {
-    float: right;
-}
+    body {
+        padding: 5%; 
+    }
+
+    nav {
+        margin-left: 5%; 
+        width: 100%;  
+    }   
+    article {
+        clear: left;    
+        margin-left: 5%; 
+        width: 1000%
+    }
 
 /***I cant make picture widths 100% without them becoming giant again and disregarding the size I set it too
-
-
-
-/* only applies to paragraphs on the index page because we used id="index" over yonder in index.html */
-/*
-#index p {
-    color: red;
-    font-size: 24px;
-}
-*/
+- why are my videos huge?
+- how should i prelude into my articles?
+- how do i make the TARYN BRAY go down more without messing up the black background?
+- format my about page
+- in @media screen everything messes up and i dont know how to format that either
