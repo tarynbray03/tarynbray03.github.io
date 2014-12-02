@@ -74,7 +74,6 @@ article h1 {
 }
 
 article p {
-    text-align: center;
     font-size: 20px;
     padding: 5px; 
 }
@@ -120,8 +119,25 @@ img.center {
     margin-top: 15px;
 }
 
+<<<<<<< HEAD
 #work h2 {
     margin-bottom: 7px;
+=======
+.half-width {
+	width: 100%;
+	max-width: 600px;
+	float: left;
+	margin-right: 10px;
+
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+>>>>>>> origin/master
 }
 
 #work h3 {
@@ -141,19 +157,20 @@ footer {
 @media screen and (max-width: 600px) {
 
     body {
-        padding: 5%; 
     }
 
     nav {
-        margin-left: 5%; 
-        width: 100%;  
+
     }   
     article {
-        clear: left;    
-        margin-left: 5%; 
-        width: 1000%
+
     }
 
 /***
 - how do i make the TARYN BRAY go down more without messing up the black background?
+<<<<<<< HEAD
 - in @media screen everything messes up and i dont know how to format that either
+=======
+- format my about page
+- in @media screen everything messes up and i dont know how to format that either
+>>>>>>> origin/master
