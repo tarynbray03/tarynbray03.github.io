@@ -19,7 +19,7 @@ header {
     background-color: #000000;
     color: #ffffff; 
     height: 60px; 
-    
+    padding-top: 10px;
 }
 
 header h1 {
@@ -66,6 +66,10 @@ article h1 {
     margin-bottom: 30px;
 }
 
+#index article p {
+    text-align: center;
+}
+
 #index article h2 {
     align-content: center;
     font-size: 24px;
@@ -95,34 +99,42 @@ img.center {
     align-content: center:
 }
 
-#self2 {
-    width: 50%;
+#index h2 {
+    text-align: center;
 }
+
+.hero {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+}
+
 
 #booth {
     width: 50%:
 }
 
-.floatleft {
-    float: left;
-}
 
 #about footer {
     clear: both;
-}
-
-#resume {
-    width: 100%;
 }
 
 #keys {
     margin-top: 15px;
 }
 
-<<<<<<< HEAD
 #work h2 {
     margin-bottom: 7px;
-=======
+}
+
+.video-container {
+    margin: 0 auto;
+}
+
 .half-width {
 	width: 100%;
 	max-width: 600px;
@@ -131,13 +143,10 @@ img.center {
 
 }
 
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
->>>>>>> origin/master
+#resume {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #work h3 {
@@ -151,8 +160,13 @@ footer {
     line-height: 30
 }
 
-#keys {
-    
+#contact article {
+    text-align: center;
+}
+
+.contact {
+    margin: 0 auto;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -167,10 +181,5 @@ footer {
     }
 
 /***
-- how do i make the TARYN BRAY go down more without messing up the black background?
-<<<<<<< HEAD
-- in @media screen everything messes up and i dont know how to format that either
-=======
-- format my about page
 - in @media screen everything messes up and i dont know how to format that either
 >>>>>>> origin/master
