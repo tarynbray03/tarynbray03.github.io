@@ -74,7 +74,6 @@ article h1 {
 }
 
 article p {
-    text-align: center;
     font-size: 20px;
     padding: 5px; 
 }
@@ -120,6 +119,14 @@ img.center {
     margin-top: 15px;
 }
 
+.half-width {
+	width: 100%;
+	max-width: 600px;
+	float: left;
+	margin-right: 10px;
+
+}
+
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
@@ -146,17 +153,13 @@ footer {
 @media screen and (max-width: 600px) {
 
     body {
-        padding: 5%; 
     }
 
     nav {
-        margin-left: 5%; 
-        width: 100%;  
+
     }   
     article {
-        clear: left;    
-        margin-left: 5%; 
-        width: 1000%
+
     }
 
 /***I cant make picture widths 100% without them becoming giant again and disregarding the size I set it too
