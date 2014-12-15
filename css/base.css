@@ -143,6 +143,21 @@ img.center {
 
 }
 
+.other {
+    width: 100%;
+    max-width: 600px;
+    float: right;
+    margin-right: 60px; 
+}
+
+#work article p {
+    clear: both;
+}
+
+#work h3 {
+    clear: both;
+}
+
 #resume {
     width: 100%;
     max-width: 1000px;
