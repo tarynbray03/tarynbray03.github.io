@@ -113,6 +113,9 @@ img.center {
     width: 100%;
 }
 
+.photo img {
+    transform: rotate(90deg);
+}
 
 #booth {
     width: 50%:
