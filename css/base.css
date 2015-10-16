@@ -53,12 +53,12 @@ header a:active {
     text-decoration: underline;    
 }
 
-article {
+#index article {
     clear: both; 
     padding: 0 10px 0 10px;
 }
 
-article h1 {
+#index article h1 {
     font-size: 36px;
     line-height: 44px;
     margin-top: 10px;
@@ -131,16 +131,15 @@ img.center {
     margin-bottom: 7px;
 }
 
-.video-container {
-    margin: 0 auto;
-}
-
 .half-width {
 	width: 100%;
 	max-width: 600px;
 	float: left;
 	margin-right: 10px;
 
+}
+#podcast article p {
+    clear: both;
 }
 
 .other {
@@ -181,6 +180,10 @@ footer {
 
 .contact {
     margin: 0 auto;
+}
+
+#podcast h1 {
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
