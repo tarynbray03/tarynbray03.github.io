@@ -77,7 +77,7 @@ header a:active {
     margin: 4px;
 }
 
-article p {
+#index article p {
     font-size: 20px;
     padding: 5px; 
 }
